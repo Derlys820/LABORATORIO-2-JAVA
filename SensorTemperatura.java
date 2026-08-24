@@ -16,4 +16,9 @@ public class SensorTemperatura extends Sensor {
     public void setCelsius(double celsius){
         this.celsius=celsius;
     }
+    @Override
+    public boolean identificarSensor(){
+    return this.celsius>38;
+
+ }
 }

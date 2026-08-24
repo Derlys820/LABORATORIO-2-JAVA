@@ -29,5 +29,5 @@ public abstract class Sensor {
     public String evaluarEstado(){
         return "";
     };
-
+    public abstract boolean identificarSensor();
 }

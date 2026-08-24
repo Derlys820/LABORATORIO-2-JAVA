@@ -15,4 +15,10 @@ public double getHumedadPct(){return humedadPct;}
  public void sethumedadPct(double humedadPct){
     this.humedadPct=humedadPct;
  }
+
+ @Override
+ public boolean identificarSensor(){
+    return this.humedadPct<20;
+
+ }
 }
